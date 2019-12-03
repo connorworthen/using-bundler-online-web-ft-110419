@@ -5,7 +5,7 @@ describe "Bundler" do
     @bundle_output = ""
     Bundler.with_clean_env do
       @bundle_output = `bundle`
-    end
+      end
   end
 
   describe "Gemfile" do
